@@ -102,5 +102,5 @@ end
 gem 'solidus_auth_devise' unless File.read(__FILE__).lines[__LINE__..-1].grep(/solidus_auth_devise/).any?
 
 gem "solidus_auth_devise"
-#gem "solidus_paypal_commerce_platform"
+gem 'solidus_paypal_commerce_platform', '~> 1.0.0.beta2'
 #gem 'solidus_mercadopago', '~> 1.0'
